@@ -11,7 +11,7 @@ if [[ -a ~/.localrc ]]
 then
   source ~/.localrc
 fi
-
+source /usr/share/doc/pkgfile/command-not-found.zsh
 # all of our zsh files
 typeset -U config_files
 config_files=($ZSH/**/*.zsh)
